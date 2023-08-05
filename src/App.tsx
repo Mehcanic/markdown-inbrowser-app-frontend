@@ -1,9 +1,9 @@
-
+import Button from "./components/Button"
 
 function App() {
   return (
     <>
-      <h1 className="bg-red-500 text-center m-auto">Something</h1>
+      <Button buttonText="Click me!" />
     </>
   )
 }
